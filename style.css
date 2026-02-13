@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.Firstview{
+    background:radial-gradient(circle, #eee, #0b2799);
+    height: 100%;
+
+}
+.header-nav{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-ul a{
+    
+    text-decoration: none;
+}
+.container-cidwa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.container-cidwa h1{
+    
+}
+.container-cidwa h2{
+    display: block;
+    margin-top: 20px;
+    margin: 20px;
+    
+}

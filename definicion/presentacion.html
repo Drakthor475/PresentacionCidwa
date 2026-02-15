@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIDWA - Club de Investigación y Desarrollo Web Acatlán</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilodefinicion.css">
+</head>
+<body>
+    <section class="Firstview">
+        <header class="Firstview-header">
+            <nav class="header-nav">
+                <ul class="nav-ul">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#definicion">Definición</a></li>
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                    <li><a href="#">Temario</a></li>
+                    <li><a href="#">Horarios</a></li>
+                    <li><a href="#">Créditos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container-cidwa">
+            <h1>Club de Investigación y Desarrollo Web Acatlán</h1>
+            <h2>CIDWA</h2>
+            <button class="cidwa-button" onclick="document.querySelector('#definicion').scrollIntoView({behavior: 'smooth'});">
+                Start
+            </button>
+        </div>
+    </section>
+
+    <section class="definicion-section" id="definicion">
+        <div class="definicion-container">
+            
+            <!-- COLUMNA IZQUIERDA:-->
+            <div class="definicion-texto">
+                <div class="definicion-icono">
+                    <span>🌐 &lt;/&gt;</span>
+                </div>
+                
+                <h2 class="definicion-titulo">¿Qué es el <span>Desarrollo Web</span>?</h2>
+                
+                <p class="definicion-descripcion">
+                    El desarrollo web se refiere a la <strong>creación y mantenimiento</strong> de sitios web y aplicaciones web. 
+                    Involucra dos áreas principales: <strong>Frontend</strong> y <strong>Backend</strong>.
+                </p>
+                
+                <p class="definicion-descripcion">
+                    Es esencial para <strong>automatizar procesos</strong>, resolver problemas y ofrecer 
+                    <strong>experiencias digitales efectivas</strong> en el mundo actual.
+                </p>
+                
+                <div class="definicion-frase">
+                    CONSTRUYENDO EXPERIENCIAS EN LÍNEA
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA: -->
+            <div class="definicion-imagen">
+                <!-- Imagen principal -->
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                    alt="Desarrollo Web - Código en laptop" 
+                    class="imagen-principal">
+                
+                <div class="imagen-info">
+                    <div class="imagen-tags">
+                        <span class="tag"> Frontend</span>
+                        <span class="tag-separador">•</span>
+                        <span class="tag"> Backend</span>
+                        <span class="tag-separador">•</span>
+                        <span class="tag"> Full Stack</span>
+                    </div>
+                    <p class="imagen-explicacion">
+                        <strong>Frontend:</strong> Lo que ves · 
+                        <strong>Backend:</strong> Lo que no ves · 
+                        <strong>Full Stack:</strong> Ambos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

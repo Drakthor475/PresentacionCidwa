@@ -1,43 +1,139 @@
-body{
+/* ESTILOS DE LA PÁGINA COMPLETA */
+body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #041d81;
+    min-height: 100vh;
+    color: white;
+}
+
+.Firstview {
     height: 100vh;
-    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
-.Firstview{
-    background:radial-gradient(circle, #eee, #0b2799);
-    height: 100%;
-
+.Firstview-header {
+    padding: 1rem 0;
 }
-.header-nav{
-    margin:0;
+
+.header-nav {
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
- 
 }
 
-.nav-ul{
+.nav-ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
+    padding: 0;
 }
-.nav-ul a{
-    
+
+.nav-ul a {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
 }
-.container-cidwa{
+
+.nav-ul a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-cidwa {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-} 
-.container-cidwa h1{
-    
+    height: calc(100vh - 80px);
+    text-align: center;
 }
-.container-cidwa h2{
-    display: block;
-    margin-top: 20px;
-    margin: 20px;
-    
+
+.container-cidwa h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    max-width: 800px;
 }
+
+.container-cidwa h2 {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    color: #FFD700;
+    text-shadow: 0 2px 15px rgba(255,215,0,0.3);
+    letter-spacing: 5px;
+}
+
+.cidwa-button {
+    background: white;
+    color: #0b2799;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.cidwa-button:hover {
+    transform: scale(1.05);
+    background: #FFD700;
+    color: #0b2799;
+    box-shadow: 0 15px 30px rgba(255,215,0,0.3);
+}
+
+
+/*-----------------------------Estilos de Front---------------------------------*/
+
+/* ----------------CONTENEDOR GENERAL-------------- */
+.frontend-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:70px;
+    min-height:100vh;
+    padding:60px;
+}
+
+/* -------------TARJETA--------------- */
+.frontend-card{
+    background: rgba(255, 255, 255, 0.12); /* transparencia */
+    padding:50px;
+    border-radius:25px;
+    max-width:600px;
+    color:white;
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.title{
+    color: #e0bd0c;
+}
+
+.subtitle{
+    color: #e0bd0c;
+}
+
+/* Imagen */
+.frontend-image img{
+    width:420px;
+    border-radius:20px;
+    box-shadow:0 20px 45px rgba(0,0,0,.45);
+}
+
+/* Boton */
+.volver{
+    display:inline-block;
+    margin-top:20px;
+    color:#ffd400;
+    text-decoration:none;
+    border-bottom:2px solid #ffd400;
+}
+

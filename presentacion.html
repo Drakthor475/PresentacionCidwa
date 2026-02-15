@@ -17,12 +17,12 @@
                 
                 <ul class="nav-ul">
                     <li><a href="#Metas">Metas</a></li>
-                    <li><a href="#Definicion">Definicion</a></li>
-                    <li><a href="">Frontend</a></li>
-                    <li><a href="">Backend</a></li>
-                    <li><a href="">Temario</a></li>
-                    <li><a href="">Horarios</a></li>
-                    <li><a href="">Creditos</a></li>
+                    <li><a href="#definicion">Definicion</a></li>
+                    <li><a href="#front">Frontend</a></li>
+                    <li><a href="#back">Backend</a></li>
+                    <li><a href="#pr">Proyectos</a></li>
+                    <li><a href="#temario">Temario</a></li>
+                    <li><a href="#horario">Horarios</a></li>
                     
                 </ul>
             </nav>
@@ -35,7 +35,7 @@
         
         
     </section>
-<section  class="metas">
+    <section  class="metas">
             <div class="section-card">
                 <h2 id="Metas">Objetivos a conseguir</h2>
                     <div class="carousel">
@@ -85,7 +85,7 @@
                                                     <h3>Pensamiento lógico aplicado a la web</h3>
                                                     <p>Desarrollarás la capacidad de analizar cómo se conectan la interfaz y la lógica interna</p>
                                                     <ul>
-                                                        <li>Relación frontend-backend</li>
+                                                        <li>Relación front-end-back-end</li>
                                                         <li>Procesamiento de datos</li>
                                                         <li>Comportamiento dinámico</li>
                                                     </ul>
@@ -102,12 +102,279 @@
                 
             </div>
 </section>
-<section class="definicion">
+<section class="definicion-section" id="definicion">
     <div class="section-card">
-        <h2 id="Definicion">Desarrollo Web</h2>
+        <div class="definicion-container">
+            
+            <!-- COLUMNA IZQUIERDA:-->
+            <div class="definicion-texto">
+                <div class="definicion-icono">
+                    <span>🌐 &lt;/&gt;</span>
+                </div>
+                
+                <h2 class="definicion-titulo">¿Qué es el <span>Desarrollo Web</span>?</h2>
+                
+                <p class="definicion-descripcion">
+                    El desarrollo web se refiere a la <strong>creación y mantenimiento</strong> de sitios web y aplicaciones web. 
+                    Involucra dos áreas principales: <strong>Front-end</strong> y <strong>Back-end</strong>.
+                </p>
+                
+                <p class="definicion-descripcion">
+                    Es esencial para <strong>automatizar procesos</strong>, resolver problemas y ofrecer 
+                    <strong>experiencias digitales efectivas</strong> en el mundo actual.
+                </p>
+                
+                <div class="definicion-frase">
+                    CONSTRUYENDO EXPERIENCIAS EN LÍNEA
+                </div>
+            </div>
+            <!-- COLUMNA DERECHA: -->
+            <div class="definicion-imagen">
+                <!-- Imagen principal -->
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                    alt="Desarrollo Web - Código en laptop" 
+                    class="imagen-principal">
+                
+                <div class="imagen-info">
+                    <div class="imagen-tags">
+                        <span class="tag"> Front-end</span>
+                        <span class="tag-separador">•</span>
+                        <span class="tag"> Back-end</span>
+                        <span class="tag-separador">•</span>
+                        <span class="tag"> Full Stack</span>
+                    </div>
+                    <p class="imagen-explicacion">
+                        <strong>Front-end:</strong> Lo que ves · 
+                        <strong>Back-end:</strong> Lo que no ves · 
+                        <strong>Full Stack:</strong> Ambos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    </section>
+<section class="frontend" id="front">
+    <div class="section-card">
+        <div class="frontend-wrapper">
+            <!-- TARJETA -->
+            <div class="frontend-card">
+                <h2 class="title">Front-End</h2>
+                <h3>La Cara Visible</h3>
+                <p>
+El desarrollo front-end se centra 
+en crear interfaces visualmente
+atractivas e interactivas con las 
+que los usuarios interactúan 
+directamente.
+                <ul>
+                    <li>Diseño + programación</li>
+                    <li>Sitios y apps responsivos</li>
+                    <li>Accesibilidad</li>
+                    <li>Facil de usar</li>
+                </ul>
+                </p>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+<section class="backend" id="back" >
+    <div class="section-card ">
+        <div class="image">
+            <img src="/img/b.png" alt="img2" />
+            <div class="image-title">
+                <h2>Back-end</h2>
+                <p>
+                    Es la parte del desarrollo web que opera detrás de escena, 
+                    procesando y gestionando la información para que el front-end 
+                    funcione correctamente. 
+                </p>
+            </div>
+        </div>
+
+        <div class="content-cards">
+            <div class="cards-back">
+                <img src="/img/Api.png" alt="Api-img">
+                <h3>API</h3>
+                <p>
+                    Permite la comunicación entre el front-end y el servidor. 
+                    Recibe solicitudes, procesa datos y devuelve respuestas.
+                </p>
+                <ul>
+                    <li>Recepción de peticiones HTTP</li>
+                    <li>Envío de respuestas en JSON</li>
+                    <li>Autenticación de usuarios</li>
+                    <li>Conexión con bases de datos</li>
+                </ul>
+            </div>
+            <div class="cards-back">
+                <img src="img/DB.jpg" alt="Db-img">
+                <h3>Base de Datos</h3>
+                <p>
+                Almacenamiento y organización de la información del sistema.
+                </p>
+                <ul>
+                    <li>Uso de Docker</li>
+                    <li>Crear y administrar entidades </li>
+                    <li>CRUD</li>
+                </ul>
+            </div>
+            <div class="cards-back">
+                <img src="img/log.png" alt="logica-img">
+                <h3>Lógica del Servidor</h3>
+                <p>
+                Controla las reglas del negocio y el comportamiento interno de la aplicación.
+                </p>
+                <ul>
+                    <li>Validación de datos</li>
+                    <li>Seguridad y autorización </li>
+                    <li>Procesamiento de información</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="proyectos" id="pr">
+    <div class="section-card">
+        <div class="proyectos-container">
+                <div class="container-title">
+                    <h2>Nuestros Proyectos</h2>
+                    <p>Lo que hemos logrado ...</p>
+                </div>
+                <div class="container-cards">
+                    <a href="#modal1" class="cards-pr">
+                        <img src="img/encuestas.png" alt="SistemaEncuesta">
+                    </a>
+                    <a href="#modal2" class="cards-pr">
+                        <img src="img/pcPuma.png" alt="SistemaPcPuma">
+                    </a>
+                    <a href="#modal3" class="cards-pr">
+                        <img src="img/Iris.png" alt="IRIS">
+                    </a>
+                    <a href="#modal4" class="cards-pr">
+                        <img src="img/Cedetec.png" alt="CEDETEC">
+                    </a>
+                </div>
+                <!-- ================= MODALES ================= -->
+                <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <a href="#pr" class="close">&times;</a>
+                    <img src="img/encuestas.png">
+                    <h3>Sistema de encuestas</h3>
+                    <p>El sistema de encuestas para la evaluación docente semestral.</p>
+                </div>
+                </div>
+                <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <a href="#pr" class="close">&times;</a>
+                    <img src="img/pcPuma.png">
+                    <h3>Sistema PcPuma</h3>
+                    <p>El sistema de préstamos de equipo de cómputo PC - Puma.</p>
+                </div>
+                </div>
+                <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <a href="#pr" class="close">&times;</a>
+                    <img src="img/Iris.png">
+                    <h3>IRIS</h3>
+                    <p>El sistema para el alta y monitoreo del servicio social de la facultad.</p>
+                </div>
+                </div>
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                    <a href="#pr" class="close">&times;</a>
+                    <img src="img/Cedetec.png">
+                    <h3>CEDETEC</h3>
+                    <p>Página informativa de los servicios de CEDETEC.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="temario" id="temario">
+<div class="section-card">
+    <h2>Temario</h2>
+
+    <div class="gallery-card">
+        <div class="cardTemas">
+            <img src="https://www.redusers.com/noticias/wp-content/uploads/2011/01/html5logo.jpg" alt="html">
+            <div class="temas">
+            <h3>Bloque 1</h3>
+            <p>HTML La Base del Desarrollo Web</p>
+            </div>
+            
+        </div>
+        <div class="cardTemas">
+            <img src="https://i.pinimg.com/736x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306.jpg" alt="css">
+            <div class="temas">
+            <h3>Bloque 2</h3>
+            <p>CSS diseños y pseudoclases para crear elementos </p>
+            </div>
+            
+        </div>
+        <div class="cardTemas">
+            <img src="https://cdn.prod.website-files.com/5be365b4ae1f663f89c67b33/6283f13d4742a293da729ee6_typescript-javascript-blog-header.webp" alt="Ts and JS">
+            <div class="temas">
+                <h3>Bloque 3</h3>
+                <p>TypeScript Programación Dinámica​</p>
+            </div>
+            
+        </div>
+        <div class="cardTemas">
+            <img src="https://www.upsqode.com/wp-content/uploads/2023/03/Next.js-vs-Nest.jpg" alt="frameworks">
+            <div class="temas">
+                <h3>Bloque 4</h3>
+                <p>Frameworks Next.js Nest.js</p>
+            </div>
+            
+        </div>
         
     </div>
-
+</div>
 </section>
+<section class="horario" id="horario">
+    <div class="section-card horario-card">
+        
+        <h2>Horario</h2>
+
+        <div class="info-container">
+            <div class="bloque">
+                
+            </div>
+
+            <div class="bloque">
+                <h3>Horario</h3>
+                <p>1:00 PM – 2:00 PM</p>
+            </div>
+
+            <div class="bloque">
+                <h3>Fecha de Inicio</h3>
+                <p>10 de Febrero 2026</p>
+            </div>
+        </div>
+
+        <div class="agradecimientos">
+            <h3>Agradecimientos</h3>
+            <ul>
+                <li>Nombre 1</li>
+                <li>Nombre 2</li>
+                <li>Nombre 3</li>
+                <li>Cantero Garcia Diego</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modal-img" src="" alt="">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+    </div>
+</div>
 </body>
 </html>
